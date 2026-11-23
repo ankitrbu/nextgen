@@ -1,0 +1,84 @@
+body {
+    background: #f2ead6;
+    color: #204638;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+h1 span {
+    color: #d9aa28;
+}
+
+h2,
+h3 {
+    font-weight: bold;
+}
+
+.bg-section {
+    background: #eee5d0;
+}
+
+.hero {
+    background: #f9f6ed;
+    color: #204638;
+    min-height: 220px;
+}
+
+.card {
+    background: #fbf9f2;
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px #00000012;
+    color: #204638;
+}
+
+.feature {
+    background: #204d3b;
+    color: white;
+}
+
+.feature a {
+    color: #f1c64a;
+}
+
+.btn-warning {
+    background: #d9aa28;
+    border-color: #d9aa28;
+}
+
+footer {
+    background: #173d30;
+    color: white;
+}
+
+.bars {
+    height: 180px;
+    padding-top: 25px;
+    color: #204d3b;
+    font-size: 55px;
+    letter-spacing: 8px;
+}
+
+.bars p {
+    font-size: 12px;
+    letter-spacing: 0;
+}
+
+.progress {
+    height: 8px;
+    background: #e5ddc9;
+}
+
+.progress-bar {
+    background: #d9aa28;
+}
+
+@media (max-width:768px) {
+    h1 {
+        font-size: 36px;
+    }
+}
